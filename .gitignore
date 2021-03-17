@@ -3,6 +3,7 @@
 # dependencies
 /notes-app/node_modules
 /weather-app/node_modules
+/practice/node_modules
 /.pnp
 .pnp.
 /notes-app/.vs

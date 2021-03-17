@@ -9,7 +9,7 @@ const forecast = (latitude, longitude, callback) => {
         } else if (body.error) {
             callback(console.log(body.error), undefined)
         } else {
-            callback(undefined, body.current.weather_descriptions + ' It is currently ' + body.current.temperature + ' degress out. There is a ' + body.current.precip + '% chance of rain.')
+            callback(undefined, body.current.weather_descriptions + ': It is currently ' + body.current.temperature + ' degress out. There is a ' + body.current.precip + '% chance of rain.')
         }
     })
 }
